@@ -398,13 +398,56 @@ header .container {
 /* footer */
 footer {
     background: #28272C;
+    margin-top: 155px;
 }
 footer .container {
     height: 232px;
     width: 1088px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 100px;
     margin: 0 auto;
+    padding-top: 40px;
+
+}
+.footer-logo h1 {
+    font-size: 25px;
+    line-height: 34px;
+}
+.footer-nav {
+    display: flex;
+}
+.footer-nav-column {
+    display: flex;
+}
+.footer-nav-column ul {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    font-family: "Niunito Sans", sans-serif;
+    padding-top: 22px;
+    padding-right: 141px;
+}
+.footer-nav-column-link {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    font-family: "Niunito Sans", sans-serif;
+    padding-bottom: 7px;
+}
+.link-red  {
+    color: #FF0000;
+}
+.footer-nav-copyright {
+    color: #D1D1D1;
+    font-size: 12px;
+    font-family: "Niunito Sans", sans-serif;
+    line-height: 16px;
+    align-self: flex-end;
+    padding-left: 430px;
 }
